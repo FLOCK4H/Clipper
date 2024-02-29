@@ -9,6 +9,7 @@ Download Clipper.exe from Release folder and run
 `Developers:`
 ```
   $ cd Clipper
+  $ pip install PySide6
   $ python Clipper.py
 ```
 

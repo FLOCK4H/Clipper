@@ -56,7 +56,7 @@ def append(text):
 
     if user32.OpenClipboard(None):
         user32.EmptyClipboard()
-        h_global_mem = kernel32.GlobalAlloc(GMEM_MOVEABLE, len(text) * 2 + 2)  # Unicode characters are 2 bytes each
+        h_global_mem = kernel32.GlobalAlloc(GMEM_MOVEABLE, len(text) * 2 + 2)
         p_global_mem = kernel32.GlobalLock(h_global_mem)
         ctypes.memmove(p_global_mem, ctypes.create_unicode_buffer(text), len(text) * 2 + 2)
         kernel32.GlobalUnlock(h_global_mem)
@@ -77,7 +77,6 @@ class Collector:
         self.last_clipboard_content = None
         self.seen_content = set()
         try:
-            # Load existing data to prevent duplicates on restart
             if os.path.exists(self.filepath):
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
@@ -85,8 +84,6 @@ class Collector:
         except JSONDecodeError as e:
             with open(self.filepath, 'w', encoding='utf-8') as f:
                 f.write("[]")
-
-
 
     def check_clipboard(self):
         current_content = get()

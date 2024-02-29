@@ -1,0 +1,18 @@
+[
+    {
+        "id": "7d9df46b649342a0",
+        "clipboard": "Okay now Clipper repo. I created the repo in the github (IN THE BROWSER AS ALWAYS!!!), its easy as we just need to upload all files all non-lfs. im in gits/Clipper folder."
+    },
+    {
+        "id": "b642c4a5d40c4fb2",
+        "clipboard": "https://github.com/FLOCK4H/Clipper"
+    },
+    {
+        "id": "58fd9894721f4c82",
+        "clipboard": "git config --global init.defaultBranch main\r\n"
+    },
+    {
+        "id": "5eed6ed69fa84abd",
+        "clipboard": "\r\nswear@DESKTOP-3F7D27I MINGW64 ~/Desktop/git/Clipper (master)\r\n$ git init -b main\r\nInitialized empty Git repository in C:/Users/swear/Desktop/git/Clipper/.git/\r\n\r\nswear@DESKTOP-3F7D27I MINGW64 ~/Desktop/git/Clipper (main)\r\n$\r\n"
+    }
+]

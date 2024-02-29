@@ -750,9 +750,6 @@ class ClipUI(QWidget):
         self.rain_label.resize(400, 400)
         self.rain_label.move(0, -self.rain_label.height())
 
-
-
-
         self.left_rect = QVBoxLayout()
         self.left_rect.setContentsMargins(0, 0, 0, 0)
 
@@ -761,8 +758,6 @@ class ClipUI(QWidget):
 
         self.right_rect = QVBoxLayout()
         self.right_rect.setContentsMargins(0, 0, 0, 0)
-
-
 
         self.city_label = QLabel(self)
         self.city_label.setAttribute(Qt.WA_TransparentForMouseEvents)

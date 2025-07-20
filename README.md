@@ -1,4 +1,8 @@
-# Clipper
+# [SHOWCASE] Clipper
+
+> [!IMPORTANT]
+> Due to a lack of external interest in the software, this project hasn't been updated in a long time. It now serves as a showcase of my experience.
+
 _Never lose what you copied again!_
 
 # Setup
